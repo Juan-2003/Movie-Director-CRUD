@@ -11,7 +11,8 @@ type CreateFormProps<T>={
 }
 
 //Componente para crear formularios genericos dependiendo de la informacion recibida.
-//OBEJTIVO: Registrar nuevos Director y Movies
+//OBJETIVO: Registrar nuevos Director y Movies
+//Para el desarrollo de este componente me apoye en IA
 function CreateForm<T extends Record<string,any>>({initialData, onSubmit}:CreateFormProps<T>){
     //Estado que almacena los valores actuales del formulario.
     //Inicializa los valores basándose en la estructura de initialData:
@@ -27,9 +28,7 @@ function CreateForm<T extends Record<string,any>>({initialData, onSubmit}:Create
                     const fkKey = `fk${key.charAt(0).toUpperCase() + key.slice(1)}`; 
                     values[fkKey] = "";
                 } 
-                else if (typeof value === "number") {
-                    values[key] = "";
-                } else {
+                else{
                     values[key] = "";
                 }
             }
