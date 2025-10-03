@@ -1,0 +1,6 @@
+# Node modules (frontend)
+frontend/node_modules/
+
+# Archivos de compilación y binarios (backend)
+backend/bin/
+backend/obj/
