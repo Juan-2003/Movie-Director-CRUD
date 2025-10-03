@@ -1,0 +1,19 @@
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.button{
+    border: none; 
+    cursor:pointer;
+    display:flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 2px;
+    gap: 2px;
+}
+
+.button:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,9 @@
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 5px
+}
+
+.label{
+    font-family: 'Segoe UI', 'Tahoma', 'Verdana', 'sans-serif';
+}

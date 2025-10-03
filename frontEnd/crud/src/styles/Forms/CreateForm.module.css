@@ -1,0 +1,22 @@
+.form{
+    display:flex;
+    flex-direction: column;
+}
+
+.submitButton{
+    display: flex;
+    align-self: center;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Segoe UI', 'Tahoma', 'Verdana', 'sans-serif';
+    color: #FFFFFF;
+    background-color: rgb(8, 74, 132);
+    border-radius: 2px;
+    border:none;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.submitButton:hover{
+    background-color: rgba(8, 74, 132, 0.8);
+}

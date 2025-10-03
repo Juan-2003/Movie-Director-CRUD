@@ -1,0 +1,11 @@
+.dataTableContainer{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+
+}
+
+.titleContainer{
+    display:flex;
+    justify-content: center;
+}

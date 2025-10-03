@@ -1,0 +1,40 @@
+.addButton{
+    display: flex;
+    justify-content: flex-end;
+}
+.table{
+    border-collapse: collapse;
+    border:2px solid rgba(84, 84, 84, 0.5);
+    font-family: 'Segoe UI', 'Tahoma', 'Verdana', 'sans-serif';
+}
+
+.headerRow{
+    background-color: rgb(8, 74, 132);
+    color: #FFFFFF;
+}
+
+.column{
+    padding: 5px 15px;
+    border:2px solid rgba(251, 251, 251, 0.5);
+}
+
+.row{
+    border-collapse: collapse;
+    border:2px solid rgba(84, 84, 84, 0.5);
+}
+
+.actionButtonsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.body{
+    text-align: center;
+}
+
+.formContainer{
+    display: flex;
+    justify-content: center;
+}
